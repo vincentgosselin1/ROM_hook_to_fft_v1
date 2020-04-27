@@ -45,13 +45,29 @@ COMPONENT ROM_READER_V2
 	);
 END COMPONENT;
 
+ COMPONENT shift_reg1bit
+	GENERIC ( NUM_STAGES : INTEGER := 256 );
+	PORT
+	(
+		 clk		:	 IN STD_LOGIC;
+		 enable		:	 IN STD_LOGIC;
+		 sr_in		:	 IN STD_LOGIC;
+		 sr_out		:	 OUT STD_LOGIC
+	 );
+	END COMPONENT;
+
 signal addr_w : std_logic_vector(9 downto 0);
-signal rd_w : std_logic;
+signal rd_w, sop_w, eop_w, valid_w, sop_d, eop_d, valid_d : std_logic;
+signal VCC : std_logic;
 
 begin
 
 	--assignements
-	valid <= rd_w;
+	valid_w <= rd_w;
+	valid <= valid_d;
+	sop <= sop_d;
+	eop <= eop_d;
+	VCC <= '1';
 
 	inst1 : ROM_READER_V2 
 	port map
@@ -61,8 +77,8 @@ begin
 		reset => reset,
 		read_ena => rd_w,
 		rom_addr => addr_w,
-		sop => sop,
-		eop => eop
+		sop => sop_w,
+		eop => eop_w
 	);
 	
 	inst2 : ROM_RAWDATA
@@ -73,6 +89,35 @@ begin
 		rden => rd_w,
 		q => data
 	);
+	
+	--sop_d , eop_d, valid_d
+	inst0aa : shift_reg1bit
+	GENERIC map( NUM_STAGES => 2 )
+	 PORT map
+	 (
+	 clk		=> clk,
+	 enable	=> VCC,
+	 sr_in	=> sop_w,
+	 sr_out	=> sop_d
+	 );
+	 inst0ab : shift_reg1bit
+	GENERIC map( NUM_STAGES => 2 )
+	 PORT map
+	 (
+	 clk		=> clk,
+	 enable	=> VCC,
+	 sr_in	=> eop_w,
+	 sr_out	=> eop_d
+	 );
+	 inst0ac : shift_reg1bit
+	GENERIC map( NUM_STAGES => 2 )
+	 PORT map
+	 (
+	 clk		=> clk,
+	 enable	=> VCC,
+	 sr_in	=> valid_w,
+	 sr_out	=> valid_d
+	 );
 
 
 

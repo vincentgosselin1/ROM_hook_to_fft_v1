@@ -1,0 +1,36 @@
+C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/pulse_gen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/pulse_gen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pulse_gen
+-- Compiling architecture rtl of pulse_gen
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_RAWDATA/ROM_RAWDATA.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_RAWDATA/ROM_RAWDATA.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ROM_RAWDATA
+-- Compiling architecture SYN of rom_rawdata
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/ROM_READER_V2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/ROM_READER_V2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ROM_READER_V2
+-- Compiling architecture rtl of ROM_READER_V2
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/simulation/modelsim/ROM_hook_to_fft_v1.vht {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/simulation/modelsim/ROM_hook_to_fft_v1.vht
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ROM_hook_to_fft_v1_vhd_tst
+-- Compiling architecture ROM_hook_to_fft_v1_arch of ROM_hook_to_fft_v1_vhd_tst
+
+} {} {}}

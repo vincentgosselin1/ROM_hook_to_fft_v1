@@ -1,0 +1,252 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1/quartus/MyDev/myPreciousLib/serializer_v1
+Epulse_gen
+Z0 w1586810496
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1
+Z5 8C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/pulse_gen.vhd
+Z6 FC:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/pulse_gen.vhd
+l0
+L6
+VPA][]kZ1UO>iPml>>BI[G3
+!s100 Vi]Kb_6m92dLE4m[?554;0
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1588020855
+!i10b 1
+Z9 !s108 1588020855.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/pulse_gen.vhd|
+Z11 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/pulse_gen.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 9 pulse_gen 0 22 PA][]kZ1UO>iPml>>BI[G3
+l28
+L22
+V8h^TJgFU4AnE>UIikALZE2
+!s100 e8iAMoA]8=5O0n?I[LLE]1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Erom_hook_to_fft_v1
+Z14 w1588020828
+R1
+R2
+R3
+R4
+Z15 8C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_hook_to_fft_v1.vhd
+Z16 FC:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_hook_to_fft_v1.vhd
+l0
+L7
+VCd81JZ1nZ<Pb6Y3^QIHZK1
+!s100 ;nAdR?OEKb:zMoe7Z;L[W3
+R7
+32
+R8
+!i10b 1
+Z17 !s108 1588020854.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_hook_to_fft_v1.vhd|
+Z19 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_hook_to_fft_v1.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 18 rom_hook_to_fft_v1 0 22 Cd81JZ1nZ<Pb6Y3^QIHZK1
+l63
+L23
+V0j17njf4;UGSSg61lB;:?1
+!s100 UXZ@OJF0gU_m@gddI_Ym?1
+R7
+32
+R8
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R12
+R13
+Erom_hook_to_fft_v1_vhd_tst
+Z20 w1588020326
+R2
+R3
+R4
+Z21 8C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/simulation/modelsim/ROM_hook_to_fft_v1.vht
+Z22 FC:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/simulation/modelsim/ROM_hook_to_fft_v1.vht
+l0
+L30
+VfL<FU7IN?O@VUiWVRb9_k0
+!s100 4^PhSX6[Sf_P2R8UHE<?31
+R7
+32
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/simulation/modelsim/ROM_hook_to_fft_v1.vht|
+Z24 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/simulation/modelsim/ROM_hook_to_fft_v1.vht|
+!i113 1
+R12
+R13
+Arom_hook_to_fft_v1_arch
+R2
+R3
+DEx4 work 26 rom_hook_to_fft_v1_vhd_tst 0 22 fL<FU7IN?O@VUiWVRb9_k0
+l56
+L32
+V_UXK]ibn8@zRlSS;VW=`;3
+!s100 M9[H]iOANfXOLY[f;MF0g2
+R7
+32
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13
+Erom_rawdata
+R0
+Z25 DPx9 altera_mf 20 altera_mf_components 0 22 Sn8Ol<dGSW99iM6NfOU>g1
+R2
+R3
+R4
+Z26 8C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_RAWDATA/ROM_RAWDATA.vhd
+Z27 FC:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_RAWDATA/ROM_RAWDATA.vhd
+l0
+L42
+V4CjZMmPnP6:EEa4FFkYc=3
+!s100 ROD7`?iX`ad__a0C2VeYJ0
+R7
+32
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_RAWDATA/ROM_RAWDATA.vhd|
+Z29 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_RAWDATA/ROM_RAWDATA.vhd|
+!i113 1
+R12
+R13
+Asyn
+R25
+R2
+R3
+DEx4 work 11 rom_rawdata 0 22 4CjZMmPnP6:EEa4FFkYc=3
+l57
+L53
+VkJ9QXM:W7iT1j>oQb<<z73
+!s100 G@@MQKnJJUa7Z51B?7U430
+R7
+32
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Erom_reader_v2
+R0
+R1
+R2
+R3
+R4
+Z30 8C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/ROM_READER_V2.vhd
+Z31 FC:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/ROM_READER_V2.vhd
+l0
+L13
+VX8LA`P>WZS`dYio?DBD3^1
+!s100 fhn<hR>5[Hh55N93^LLDa1
+R7
+32
+R8
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/ROM_READER_V2.vhd|
+Z33 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/ROM_READER_V2/ROM_READER_V2.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 13 rom_reader_v2 0 22 X8LA`P>WZS`dYio?DBD3^1
+l67
+L26
+VXWjdSkHS<k?TU4nPHmmoN2
+!s100 5bWkYCP:QU>D[Lzdi1o^?2
+R7
+32
+R8
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Eshift_reg1bit
+Z34 w1586810497
+R2
+R3
+R4
+Z35 8C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/shift_reg1bit.vhd
+Z36 FC:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/shift_reg1bit.vhd
+l0
+L35
+V@=WP1IO7;A]08Z24kRD5V1
+!s100 SRFdhY>=Qz>agV;hmNlzC3
+R7
+32
+R8
+!i10b 1
+R9
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/shift_reg1bit.vhd|
+Z38 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/ROM_hook_to_fft_v1/shift_reg1bit.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+DEx4 work 13 shift_reg1bit 0 22 @=WP1IO7;A]08Z24kRD5V1
+l60
+L52
+VEKic_om9keb0HOiEiA0>11
+!s100 BgGB[CW0LbU8[8hUUI`HJ3
+R7
+32
+R8
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13

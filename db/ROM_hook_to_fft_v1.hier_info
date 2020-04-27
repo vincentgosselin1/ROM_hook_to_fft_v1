@@ -2,26 +2,29 @@
 TRIGGER_IN => ROM_READER_V2:inst1.TRIGGER_IN
 CLK => ROM_READER_V2:inst1.CLK
 CLK => ROM_RAWDATA:inst2.clock
+CLK => shift_reg1bit:inst0aa.clk
+CLK => shift_reg1bit:inst0ab.clk
+CLK => shift_reg1bit:inst0ac.clk
 RESET => ROM_READER_V2:inst1.RESET
-VALID <= ROM_READER_V2:inst1.READ_ENA
-SOP <= ROM_READER_V2:inst1.SOP
-EOP <= ROM_READER_V2:inst1.EOP
-DATA[0] <= ROM_RAWDATA:inst2.q[0]
-DATA[1] <= ROM_RAWDATA:inst2.q[1]
-DATA[2] <= ROM_RAWDATA:inst2.q[2]
-DATA[3] <= ROM_RAWDATA:inst2.q[3]
-DATA[4] <= ROM_RAWDATA:inst2.q[4]
-DATA[5] <= ROM_RAWDATA:inst2.q[5]
-DATA[6] <= ROM_RAWDATA:inst2.q[6]
-DATA[7] <= ROM_RAWDATA:inst2.q[7]
-DATA[8] <= ROM_RAWDATA:inst2.q[8]
-DATA[9] <= ROM_RAWDATA:inst2.q[9]
-DATA[10] <= ROM_RAWDATA:inst2.q[10]
-DATA[11] <= ROM_RAWDATA:inst2.q[11]
-DATA[12] <= ROM_RAWDATA:inst2.q[12]
-DATA[13] <= ROM_RAWDATA:inst2.q[13]
-DATA[14] <= ROM_RAWDATA:inst2.q[14]
-DATA[15] <= ROM_RAWDATA:inst2.q[15]
+VALID << shift_reg1bit:inst0ac.sr_out
+SOP << shift_reg1bit:inst0aa.sr_out
+EOP << shift_reg1bit:inst0ab.sr_out
+DATA[0] << ROM_RAWDATA:inst2.q[0]
+DATA[1] << ROM_RAWDATA:inst2.q[1]
+DATA[2] << ROM_RAWDATA:inst2.q[2]
+DATA[3] << ROM_RAWDATA:inst2.q[3]
+DATA[4] << ROM_RAWDATA:inst2.q[4]
+DATA[5] << ROM_RAWDATA:inst2.q[5]
+DATA[6] << ROM_RAWDATA:inst2.q[6]
+DATA[7] << ROM_RAWDATA:inst2.q[7]
+DATA[8] << ROM_RAWDATA:inst2.q[8]
+DATA[9] << ROM_RAWDATA:inst2.q[9]
+DATA[10] << ROM_RAWDATA:inst2.q[10]
+DATA[11] << ROM_RAWDATA:inst2.q[11]
+DATA[12] << ROM_RAWDATA:inst2.q[12]
+DATA[13] << ROM_RAWDATA:inst2.q[13]
+DATA[14] << ROM_RAWDATA:inst2.q[14]
+DATA[15] << ROM_RAWDATA:inst2.q[15]
 
 
 |ROM_hook_to_fft_v1|ROM_READER_V2:inst1
@@ -411,5 +414,32 @@ rden_a => ram_block1a12.ENA0
 rden_a => ram_block1a13.ENA0
 rden_a => ram_block1a14.ENA0
 rden_a => ram_block1a15.ENA0
+
+
+|ROM_hook_to_fft_v1|shift_reg1bit:inst0aa
+clk => sr[0].CLK
+clk => sr[1].CLK
+enable => sr[0].ENA
+enable => sr[1].ENA
+sr_in => sr[0].DATAIN
+sr_out <= sr[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ROM_hook_to_fft_v1|shift_reg1bit:inst0ab
+clk => sr[0].CLK
+clk => sr[1].CLK
+enable => sr[0].ENA
+enable => sr[1].ENA
+sr_in => sr[0].DATAIN
+sr_out <= sr[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ROM_hook_to_fft_v1|shift_reg1bit:inst0ac
+clk => sr[0].CLK
+clk => sr[1].CLK
+enable => sr[0].ENA
+enable => sr[1].ENA
+sr_in => sr[0].DATAIN
+sr_out <= sr[1].DB_MAX_OUTPUT_PORT_TYPE
 
 
