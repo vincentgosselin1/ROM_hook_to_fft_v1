@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "VALID",
+					"strict" : false
+				},
+				{
+					"name" : "SOP",
+					"strict" : false
+				},
+				{
+					"name" : "EOP",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "TRIGGER_IN",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

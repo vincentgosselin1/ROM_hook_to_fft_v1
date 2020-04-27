@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Apr 27 16:35:04 2020
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : ROM_hook_to_fft_v1
+Top-level Entity Name : ROM_hook_to_fft_v1
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 28
+Total pins : 22
+Total virtual pins : 0
+Total block memory bits : 16,384
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0
